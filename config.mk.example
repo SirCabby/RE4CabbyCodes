@@ -1,0 +1,10 @@
+# Copy this file to config.mk and set your local path.
+#   cp config.mk.example config.mk
+# config.mk is gitignored, so your personal values never enter the repo.
+
+# Absolute path to your Resident Evil 4 folder - the directory containing
+# "re4.exe". The path may contain spaces; that is fine - do not quote it here
+# (Steam names the folder with two spaces: "RESIDENT EVIL 4  BIOHAZARD RE4").
+# Windows example:      GAME_DIR := C:/Program Files (x86)/Steam/steamapps/common/RESIDENT EVIL 4  BIOHAZARD RE4
+# Linux/Proton example: GAME_DIR := /home/you/.local/share/Steam/steamapps/common/RESIDENT EVIL 4  BIOHAZARD RE4
+GAME_DIR := /path/to/RESIDENT EVIL 4  BIOHAZARD RE4
