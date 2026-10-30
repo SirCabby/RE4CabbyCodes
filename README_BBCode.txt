@@ -33,8 +33,6 @@ This mod is open source! Check it out at [url=https://github.com/SirCabby/RE4Cab
 
 [size=5][b]Install[/b][/size]
 
-Works the same on Windows and on Linux (Proton), with no launch options. REFramework can stay installed.
-
 Open the game's folder (in Steam: right-click the game > Manage > Browse local files):
 [list=1]
 [*]Rename [b]steam_api64.dll[/b] to [b]steam_api64_orig.dll[/b]
@@ -42,16 +40,6 @@ Open the game's folder (in Steam: right-click the game > Manage > Browse local f
 [/list]
 
 To uninstall: delete steam_api64.dll and rename steam_api64_orig.dll back.
-
-Made for the current Steam version of the game (build 22377325). On another version the mod says so and leaves the game alone.
-
-[size=5][b]Please read before using[/b][/size]
-[list]
-[*]This first version has not been played with yet: everything it uses was found in the game's own code and checked against it, but expect rough edges, and report them with the log.
-[*]Back up your saves before using the save file manager (Steam/userdata/<your id>/2050650/remote/). Delete and Copy cannot be undone. A copy made with an earlier version of the mod that shows as empty: copy it again.
-[*]Item and save changes are made only while the game is paused, challenges only while the game's challenges screen is open, the shop's items only while the Extra Content Shop is open.
-[*]The item box is saved with the game, like the attache case: a change is kept by your next save and lost if you quit without saving. Before removing the mod, take out what you stored: what the game's storage does not normally hold shows up in it at your next load, one of each item.
-[/list]
 
 [size=5][b]If it does not work[/b][/size]
 
